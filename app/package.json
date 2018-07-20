@@ -1,0 +1,16 @@
+{
+  "name": "react-boilerplate-electron-version",
+  "version": "1.0.0",
+  "description": "React Boilerplate Electron Version",
+  "main": "./electron/main.prod.js",
+  "author": {
+    "name": "Manish Jangir",
+    "email": "manish.jangir@globant.com"
+  },
+  "scripts": {
+    "electron-rebuild": "node -r babel-register ../internals/scripts/electron-rebuild.js",
+    "postinstall": "npm run electron-rebuild"
+  },
+  "license": "MIT",
+  "devDependencies": {}
+}
